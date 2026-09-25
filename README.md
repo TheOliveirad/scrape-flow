@@ -38,14 +38,14 @@ scrape-flow is a production-grade scraping framework that turns URLs into clean,
 
 ## Key Features
 
-- **Async-first engine** — concurrent scraping with configurable semaphore and token-bucket rate limiting
-- **Retry with exponential backoff** — automatic retries with jitter to handle transient failures
-- **Proxy rotation interface** — pluggable proxy providers (round-robin included, commercial integrations available)
-- **Pydantic data models** — every extracted record is validated against a typed schema before output
-- **Composable pipelines** — chain transformation steps (normalize, clean, enrich) with per-step telemetry
-- **REST API** — submit jobs, check status, and retrieve results via FastAPI endpoints with OpenAPI docs
-- **Docker-ready** — multi-stage build with health checks, non-root user, and compose stack included
-- **Structured logging** — JSON log output ready for ELK, Datadog, or any log aggregator
+- **Async-first engine**: concurrent scraping with configurable semaphore and token-bucket rate limiting
+- **Retry with exponential backoff**: automatic retries with jitter to handle transient failures
+- **Proxy rotation interface**: pluggable proxy providers (round-robin included, commercial integrations available)
+- **Pydantic data models**: every extracted record is validated against a typed schema before output
+- **Composable pipelines**: chain transformation steps (normalize, clean, enrich) with per-step telemetry
+- **REST API**: submit jobs, check status, and retrieve results via FastAPI endpoints with OpenAPI docs
+- **Docker-ready**: multi-stage build with health checks, non-root user, and compose stack included
+- **Structured logging**: JSON log output ready for ELK, Datadog, or any log aggregator
 
 ## Project Structure
 
@@ -91,7 +91,7 @@ scrape-flow/
 ### 1. Clone & configure
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/scrape-flow.git
+git clone https://github.com/TheOliveirad/scrape-flow.git
 cd scrape-flow
 cp .env.example .env
 # Edit .env with your settings
@@ -167,4 +167,4 @@ I'm a Machine Learning & AI Engineering student specializing in Python automatio
 - Design clean APIs and data pipelines?
 - Ship Docker-ready automation tools?
 
-**Let's talk →** [Connect on LinkedIn](https://linkedin.com/in/YOUR_PROFILE) · [Hire me on Upwork](https://upwork.com/freelancers/YOUR_PROFILE) · [Email me](mailto:your@email.com)
+**Let's talk:** [Connect on LinkedIn](https://www.linkedin.com/in/diogo-oliveira-python/) | [Hire me on Upwork](https://www.upwork.com/freelancers/~018c8d4a42121d5c16) | [Email me](mailto:oliveira_d@live.com.pt)
